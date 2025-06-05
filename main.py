@@ -28,10 +28,10 @@ def parse_args():
     parser.add_argument(
         "-c", "--config", type=str, default=None, help="使用配置文件运行程序"
     )
-    parser.add_argument("-u", "--username", type=str, default=None, help="手机号账号")
-    parser.add_argument("-p", "--password", type=str, default=None, help="登录密码")
+    parser.add_argument("-u", "--username", type=str, default=None, help="15171707649")
+    parser.add_argument("-p", "--password", type=str, default=None, help="dwj060924")
     parser.add_argument(
-        "-l", "--list", type=str, default=None, help="要学习的课程ID列表, 以 , 分隔"
+        "-l", "--list", type=str, default=None, help="200381526"
     )
     parser.add_argument(
         "-s", "--speed", type=float, default=1.0, help="视频播放倍速 (默认1, 最大2)"
